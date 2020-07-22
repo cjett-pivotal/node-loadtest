@@ -1,0 +1,9 @@
+---
+applications:
+- name: nodeclient
+  health-check-type: process
+  memory: 128M
+  disk_quota: 128M
+  no-route: true
+  env:
+    endpoint: http://nodeserver.apps.nsx.home.local
