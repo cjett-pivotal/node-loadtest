@@ -3,7 +3,7 @@ This is a simple client and server designed to be deployed to PCF and create loa
 
 ## Client
 
-An HTTP client using the `loadtest` Node.js library that sends a `POST` to a specific endpoint.  Can be run locally via `npm start` or deployed to PCF.  Has a number of configurable options that can be configured via a `manifest.yml` or via `env` variables.
+An HTTP client using the [loadtest](https://www.npmjs.com/package/loadtest) Node.js library that sends a `POST` to a specific endpoint.  Can be run locally via `npm start` or deployed to PCF.  Has a number of configurable options that can be configured via a `manifest.yml` or via `env` variables.
 
 ### Configuring options
 
