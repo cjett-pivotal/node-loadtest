@@ -44,13 +44,3 @@ http.createServer(function (request, response) {
 }
 }).listen(process.env.port || 8080, () => {
     console.log(`Server is running on 8080`)})
-
-// http.createServer((request, response) => {
-//   console.log('Now we have a http message with headers but no data yet.');
-//   request.on('data', chunk => {
-//     console.log('A chunk of data has arrived: ', chunk);
-//   });
-//   request.on('end', () => {
-//     console.log('No more data');
-//   })
-// }).listen(8080)
